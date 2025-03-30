@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 30-03-2025
+Ejercicio: SistemaSolar
+-->
+<!DOCTYPE sistemaSolar [
+    <!ELEMENT sistemaSolar (cuerpo*)>
+    <!ELEMENT cuerpo (planeta|satelite|asteroide)>
+    <!ELEMENT planeta (#PCDATA)>
+    <!ELEMENT satelite (#PCDATA)>
+    <!ELEMENT asteroide (#PCDATA)>
+]>
+<sistemaSolar>
+    <cuerpo>
+        <planeta>Tierra</planeta>
+    </cuerpo>
+    <cuerpo>
+        <satelite>Luna</satelite>
+    </cuerpo>
+    <cuerpo>
+        <asteroide>Ceres</asteroide>
+    </cuerpo>
+</sistemaSolar>
